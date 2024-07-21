@@ -10,7 +10,8 @@ export const HeroBanner = () => {
       </div>
       <h1 className="hero-banner__headline">Olá, Colega!</h1>
       <p className="hero-banner__description">
-        Este é um site que vai calcular automaticamente a tua nota a cada disciplinas e a tua média final secundário.
+        Este é um site que vai calcular automaticamente a tua nota a 
+    cada disciplinas e a tua média final secundário.
       </p>
       <a
         id="code-sample-link"
