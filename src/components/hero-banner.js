@@ -8,10 +8,9 @@ export const HeroBanner = () => {
       <div className="hero-banner__logo">
         <img className="hero-banner__image" src={logo} alt="React logo" />
       </div>
-      <h1 className="hero-banner__headline">Hello, React World!</h1>
+      <h1 className="hero-banner__headline">Olá, Colega!</h1>
       <p className="hero-banner__description">
-        This is a sample application that demonstrates the authentication flow
-        for React apps using <strong>Auth0</strong>.
+        Este é um site que vai calcular automaticamente a tua nota a cada disciplinas e a tua média final do secundário. <strong>Auth0</strong>.
       </p>
       <a
         id="code-sample-link"
@@ -20,7 +19,7 @@ export const HeroBanner = () => {
         href="https://auth0.com/developers/hub/code-samples/spa/react-javascript/basic-authentication-with-react-router-6"
         className="button button--secondary"
       >
-        Check out the React code sample →
+        Calcular média →
       </a>
     </div>
   );
